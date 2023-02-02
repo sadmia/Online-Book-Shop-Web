@@ -1,0 +1,489 @@
+/*--------------------------- Font Add --------------------------------*/
+@font-face {
+  font-family: ProximaNovaFont;
+  src: url(../font/Proxima-Nova-RG.otf);
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: ProximaNovaFont;
+	height: 100%;
+}
+
+/*-------------------- full-section -- Start --------------------*/
+
+.full-section {}
+.con-mar-0 {
+	margin: 0px;
+}
+.con-padd-0 {
+	padding: 0px;
+}
+
+
+
+	/*------------------- left-align-site -- Start ----------------------*/
+
+	.left-align-site {
+		width: 100%;
+		height: 100vh;
+		background-color: #1F2637;
+		overflow-y: scroll;
+		box-sizing: border-box;
+	}
+
+
+		/*------------------ left-align-site Slider Design Start -----------------------------*/
+
+		.left-align-site::-webkit-scrollbar {
+			width: 15px;
+			background-color: #171E2B;
+		}
+		.left-align-site::-webkit-scrollbar-track {
+			border: 1px solid #fff2;
+		}
+		.left-align-site::-webkit-scrollbar-thumb {
+			background-color: #fff2;
+			border-radius: 10px;
+		}
+
+
+		/*------------------ left-align-site Slider Design End -----------------------------*/
+
+	.manu-nav-list ul .active-LAS {
+		background-color: #15A4FA;
+		color: #fff;
+	}
+
+	.add-book {
+		width: 75%;
+		margin: auto;
+		background-color: #F2795A;
+		padding: 10px 0px;
+		border-radius: 5px;
+		text-align: center;
+	}
+	.add-book a {
+		text-align: center;
+		text-decoration: none;
+		font-size: 12px;
+		font-weight: 700;
+		color: #fff;
+	}
+	.add-book a i {
+		padding-right: 10px;
+		margin-left: -10px;
+	}
+	.margin-20 {
+		padding: 40px 0px;
+		border-bottom: 5px solid #171E2B;
+	}
+
+
+
+	.manu-nav-list,
+	.manu-nav-list-2,
+	.manu-nav-list-3 {
+		border-bottom: 5px solid #171E2B;
+		padding-top: 10px;
+	}
+	.manu-nav-list ul,
+	.manu-nav-list-2 ul,
+	.manu-nav-list-3 ul {
+		padding: 0px;
+	}
+	.manu-nav-list ul a,
+	.manu-nav-list-2 ul a {
+		text-decoration: none;
+	}
+	.manu-nav-list ul a li,
+	.manu-nav-list-2 ul a li,
+	.manu-nav-list-3 ul li {
+		width: 100%;
+		list-style: none;
+		padding: 8px 15px 8px 30px;
+		font-size: 15px;
+		color: #78829D;
+		font-family: ProximaNovaFont;
+	}
+	.manu-nav-list ul a li i,
+	.manu-nav-list-3 ul li i  {
+		margin-right: 10px;
+	}
+	.manu-nav-list ul a li:hover {
+		background-color: #15A4FA;
+		color: #fff;
+	}
+
+
+	.manu-nav-list-2 ul a li i {
+		font-size: 10px;
+		margin-top: 0px;
+		margin-right: 15px;
+	}
+	.manu-nav-list-2 ul a li:hover {
+		color: #fff9;
+	}
+
+	.color-1 {
+		color: #D74963;
+	}
+	.color-2 {
+		color: #FFAB00;
+	}
+	.color-3 {
+		color: #00BFDD;
+	}
+	.color-4 {
+		color: #7874CF;
+	}
+
+
+	.manu-nav-list-3 {
+		border-bottom: none;
+		padding-bottom: 50px;
+	}
+	.manu-nav-list-3 ul li {
+		font-size: 12px;
+		padding: 40px 20px 0px 30px;
+	}
+	.margin-lef {
+		margin-left: 30px;
+		margin-top: -18px;
+	}
+	.color-w9 {
+		color: #fff8;
+	}
+	.margin-lef .time-3 {
+		padding-top: 15px;
+	}
+
+	/*-------------------- left-align-site -- End ----------------------*/
+
+
+
+	/*---------------------- right-align-site [Start] --------------------------------*/
+
+	.right-align-site {
+		height: 100vh;
+		width: 100%;
+		background-color: #fff;
+		box-sizing: border-box;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+
+
+		/*------------------ right-align-site Slider Design Start -----------------------------*/
+
+			.right-align-site::-webkit-scrollbar {
+				width: 15px;
+				background-color: #171E2B;
+			}
+			.right-align-site::-webkit-scrollbar-track {
+				border: 1px solid #fff2;
+			}
+			.right-align-site::-webkit-scrollbar-thumb {
+				background-color: #fff2;
+				border-radius: 10px;
+			}
+
+
+		/*------------------ right-align-site Slider Design End -----------------------------*/
+
+
+		/*------------------- header-site [Start] ---------------------------*/
+
+		.header-site {
+			padding-top: 20px;
+			background-color: #EEF1F7;
+		}
+		.header-site h1 {
+			font-size: 30px;
+			margin-left: 30px;
+			font-weight: 700;
+			margin-bottom: 20px;
+			color: #454D64;
+		}
+		.list-bar-mb {
+			display: none;
+		}
+
+		.header-bottom-site {
+			width: 100%;
+			padding: 10px;
+			border-top: 2px solid #DADFEA;
+			border-bottom: 2px solid #DADFEA;
+		}
+
+		.BAB-list {
+			margin-bottom: 0px;
+			padding: 5px 0px;
+			margin-left: 15px;
+		}
+		.BAB-list li {
+			display: inline-block;
+			padding: 7px 17px;
+			border-radius: 20px;
+			margin-left: 5px;
+			color: #8C97B2;
+			font-size: 12px;
+			cursor: pointer;
+		}
+		.BAB-list li:hover {
+			color: #333;
+		}
+		.BAB-list .active-BG {
+			background-color: #97B3CE;
+			color: #fff !important;
+			cursor: pointer;
+		}
+
+
+		.keybord-div {
+			width: 95%;
+			padding: 0px;
+			border: 1px solid #97B3CE;
+			border-radius: 30px;
+		}
+		.search input {
+			padding: 6px 10px;
+			border: none;
+			background-color: #fff0;
+			text-indent: 10px;
+			outline: none;
+			width: 90%;
+			color: #8C97B2;
+			border-radius: 30px;
+		}
+		.search {
+			position: relative;
+		}
+		.search button {
+			padding: 6px 10px;
+			border: none;
+			background-color: #fff0;
+			outline: none;
+			position: absolute;
+			color: #8C97B2;
+			top: 0;
+			right: 5px;
+		}
+
+
+		.contante-list {
+			padding: 20px;
+		}
+		.design-item {
+			width: 100%;
+			margin-top: 20px;
+		}
+		.images-div {
+			width: 100%;
+			height: 350px;
+			background-color: #3335;
+			border-radius: 5px;
+			position: relative;
+			overflow: hidden;
+		}
+		
+		.images-div img {
+			width: 100%;
+			height: 100%;
+		}
+
+		.images-div i {
+			position: absolute;
+			left: -40px;
+			top: 10px;
+			font-size: 25px;
+			color: #3337;
+			padding: 10px 9px;
+			background-color: #fff;
+			border-radius: 50%;
+			transition: 0.3s;
+			cursor: pointer;
+		}
+		.images-div:hover i {
+			left: 10px;
+		}
+
+		.design-item h2 {
+			font-size: 20px;
+			margin-top: 10px;
+			font-weight: 600;
+			margin-bottom: 5px;
+			margin-left: 5px;
+		}
+		.design-item h2 a {
+			text-decoration: none;
+			color: #444C63;
+		}
+		.design-item:hover h2 a {
+			text-decoration: underline;
+		}
+		.design-item p {
+			font-size: 15px;
+			color: #6F7D95;
+			margin-bottom: 10px;
+		}
+		.design-item ul {
+			text-align: left;
+			margin: 0px;
+			padding-left: 5px;
+		}
+		.design-item ul li {
+			display: inline-block;
+			font-size: 16px;
+			color: #FFAB00;
+		}
+
+.titleAndViewBtn {
+	width: 100%;
+	border: none;
+	text-align: left;
+	background: #fff0;
+}
+
+		/*------------------- header-site [End] ---------------------------*/
+
+
+
+		/*-------------------- contante-list [Start] --------------------------*/
+
+
+
+		/*--------------------- contante-list [End] --------------------------*/
+
+	/*---------------------- right-align-site [End] --------------------------------*/
+
+
+/*-------------------- full-section -- End ----------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------ Responsive Mediaquary screen site [Start] ----------------------------------*/
+
+@media screen and (max-width: 1199px) {
+	.images-div {
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.BAB-list li {
+		padding: 3px 10px;
+		margin-left: 0px;
+		font-size: 12px;
+	}
+
+	.search input {
+		padding: 8px 0px;
+		text-indent: 10px;
+		font-size: 12px;
+		width: 80%;
+	}
+	.search button {
+		padding: 6px 10px;
+		top: 0;
+		right: 5px;
+		width: 20%;
+	}
+	.images-div {
+		height: 270px;
+	}
+	
+}
+
+@media screen and (max-width: 767px) {
+	.BAB-list {
+		text-align: left;
+		margin-bottom: 15px;
+	}
+	.header-site h1 {
+		font-size: 25px;
+	}
+	.search input {
+		width: 90%;
+	}
+	.search button {
+		width: 10%;
+	}
+	.images-div {
+		height: 270px;
+	}
+
+	.keybord-div {
+		width: 90%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.left-align-site {
+		display: none;
+	}
+
+	.images-div {
+		height: 500px;
+	}
+
+	.BAB-list {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.header-site h1 {
+		font-size: 20px;
+	}
+	.keybord-div {
+		width: 80%;
+		margin: auto;
+	}
+	.search input {
+		width: 90%;
+	}
+	.search button {
+		width: 10%;
+		right: 10px;
+	}
+
+	.design-item {
+		padding: 0px 30px;
+	}
+	.design-item h2,
+	.design-item p,
+	.design-item ul {
+		text-align: center;
+	}
+
+	.header-site {
+		position: relative;
+	}
+	.list-bar-mb {
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 10px;
+		font-size: 20px;
+	}
+}
+
+/*------------------------ Responsive Mediaquary screen site [End] ----------------------------------*/
